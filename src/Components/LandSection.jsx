@@ -21,7 +21,9 @@ const bgColorMap = {
   const headingText = " Stay Active, Stay Hydrated.";
 
   useEffect(() => {
-    slideImages(0);
+    setTimeout(() => {
+      slideImages(0);
+    },2000)
   }, []);
 
   useEffect(() => {
